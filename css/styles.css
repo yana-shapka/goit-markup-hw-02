@@ -1,22 +1,20 @@
 /* #region Variables */
 :root {
-    /* Fonts */
-    --font-primary: Roboto, sans-serif;
-    --font-secondary: Raleway, sans-serif;
-  
-    /* Colors */
-    --cl-body: #FFFFFF;
-    --cl-primary: #434455;
-    --cl-secondary: #2E2F42; 
-    --cl-background-dark: #E7E9FC;
-    --cl-background-light: #F4F4FD;  
-    --cl-accent: #4D5AE5; 
-   
-    /* Others */
-  }
-  /* #endregion */
+  /* Fonts */
+  --font-primary: Roboto, sans-serif;
+  --font-secondary: Raleway, sans-serif;
 
+  /* Colors */
+  --cl-body: #ffffff;
+  --cl-primary: #434455;
+  --cl-secondary: #2e2f42;
+  --cl-background-dark: #e7e9fc;
+  --cl-background-light: #f4f4fd;
+  --cl-accent: #4d5ae5;
 
+  /* Others */
+}
+/* #endregion */
 
 /* #region Base */
 body {
@@ -24,7 +22,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: var(--cl-body);
-  color: var(--cl-primary) 
+  color: var(--cl-primary);
 }
 
 ul {
@@ -36,16 +34,11 @@ a {
   color: currentColor;
 }
 
-
 /* #endregion */
-
-
 
 /* #region Common */
 /* Buttons */
 /* #endregion */
-
-
 
 /* #region Header */
 .header {
@@ -107,8 +100,6 @@ a {
 }
 /* #endregion */
 
-
-
 /* #region Hero */
 .hero {
   width: 1440px;
@@ -146,8 +137,6 @@ a {
 
 /* #endregion */
 
-
-
 /* #region About */
 .about {
   background-color: inherit;
@@ -177,8 +166,6 @@ a {
   color: var(--cl-primary);
 }
 /* #endregion */
-
-
 
 /* #region Team */
 .team {
@@ -221,8 +208,6 @@ a {
 }
 /* #endregion */
 
-
-
 /* #region Portfolio */
 .portfolio {
   background-color: inherit;
@@ -261,8 +246,6 @@ a {
 
 /* #endregion */
 
-
-
 /* #region Footer */
 .footer {
   width: 1440px;
@@ -281,8 +264,3 @@ a {
   color: var(--cl-background-dark);
 }
 /* #endregion */
-
-
-
-
-
