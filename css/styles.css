@@ -181,10 +181,9 @@ a {
   color: var(--cl-secondary);
 }
 .team-list {
-  background-color: inherit;
 }
 .team-list-item {
-  background-color: inherit;
+  background-color: var(--cl-body);
 }
 .team-ill {
 }
@@ -251,7 +250,7 @@ a {
   background-color: var(--cl-secondary);
 }
 .footer .header-logo-accent {
-  color: var(--cl-body);
+  color: var(--cl-background-light);
 }
 .footer-desc {
   font-family: inherit;
@@ -259,6 +258,6 @@ a {
   font-weight: 400;
   line-height: inherit;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--cl-background-light);
 }
 /* #endregion */
