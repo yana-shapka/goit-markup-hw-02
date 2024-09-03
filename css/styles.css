@@ -11,6 +11,7 @@
   --cl-background-dark: #e7e9fc;
   --cl-background-light: #f4f4fd;
   --cl-accent: #4d5ae5;
+  --cl-links
 
   /* Others */
 }
@@ -53,11 +54,9 @@ a {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.16;
-  letter-spacing: 0.5px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--cl-secondary);
-  width: 115px;
-  height: 24px;
 }
 .header-logo-accent {
   font-family: var(--font-secondary);
@@ -67,8 +66,6 @@ a {
   line-height: 1.16;
   letter-spacing: 0.5px;
   color: var(--cl-accent);
-  width: 115px;
-  height: 24px;
 }
 .header-nav-list {
 }
@@ -77,13 +74,16 @@ a {
   font-weight: 500;
   font-size: inherit;
   line-height: inherit;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.02em;
   color: var(--cl-secondary);
 }
-.header-nav-link {
+.header-nav-link:hover,
+.header-nav-link:focus {
   cursor: pointer;
+  color: var(--cl-links);
 }
 .header-address {
+  font-style: normal
 }
 .header-address-list {
 }
@@ -91,19 +91,21 @@ a {
   font-family: inherit;
   font-size: inherit;
   font-weight: 400;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.02em;
   color: inherit;
 }
 .header-address-link {
   text-decoration: none;
+}
+.header-address-link:hover,
+.header-address-link:focus {
   cursor: pointer;
+  color: var(--cl-links);
 }
 /* #endregion */
 
 /* #region Hero */
 .hero {
-  width: 1440px;
-  height: 600px;
   background-color: var(--cl-secondary);
 }
 .hero-title {
@@ -111,26 +113,25 @@ a {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--cl-body);
 }
 .btn {
   font-family: inherit;
-  width: 169px;
-  height: 56px;
   border: none;
 }
 .btn:hover,
 .btn:focus {
   cursor: pointer;
+  color: var(--cl-links);
 }
 .btn-primary {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   font-weight: 500;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.04em;
   background-color: var(--cl-accent);
   color: var(--cl-body);
 }
@@ -144,8 +145,6 @@ a {
 .about-title {
 }
 .about-list {
-  width: 1128px;
-  height: 104px;
 }
 .about-list-item {
 }
@@ -153,7 +152,7 @@ a {
   font-family: inherit;
   font-size: 20px;
   font-weight: 500;
-  line-height: inherit;
+  line-height: 1.2;
   letter-spacing: 0.4px;
   color: var(--cl-secondary);
 }
@@ -162,15 +161,13 @@ a {
   font-size: inherit;
   font-weight: 400;
   line-height: inherit;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.02em;
   color: var(--cl-primary);
 }
 /* #endregion */
 
 /* #region Team */
 .team {
-  width: 1440px;
-  height: 732px;
   background-color: var(--cl-background-light);
 }
 .team-title {
@@ -178,14 +175,14 @@ a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: var(--cl-secondary);
 }
 .team-list {
 }
 .team-list-item {
-  width: 264px;
-  height: 380px;
   background-color: inherit;
 }
 .team-ill {
@@ -194,8 +191,8 @@ a {
   font-family: inherit;
   font-size: 20px;
   font-weight: 500;
-  line-height: inherit;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .team-list-item-subtitle {
@@ -217,8 +214,9 @@ a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: var(--cl-secondary);
 }
 .portfolio-list {
@@ -231,8 +229,8 @@ a {
   font-family: inherit;
   font-size: 20px;
   font-weight: 500;
-  line-height: inherit;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--cl-secondary);
 }
 .portfolio-list-item-subtitle {
@@ -240,7 +238,7 @@ a {
   font-size: inherit;
   font-weight: 400;
   line-height: inherit;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.02em;
   color: var(--cl-primary);
 }
 
@@ -248,8 +246,6 @@ a {
 
 /* #region Footer */
 .footer {
-  width: 1440px;
-  height: 312px;
   background-color: var(--cl-secondary);
 }
 .footer .header-logo {
