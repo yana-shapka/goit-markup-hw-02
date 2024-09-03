@@ -249,7 +249,7 @@ a {
 .footer {
   background-color: var(--cl-secondary);
 }
-.footer .header-logo {
+.footer .header-logo-accent {
   color: var(--cl-body);
 }
 .footer-desc {
