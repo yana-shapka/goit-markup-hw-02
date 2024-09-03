@@ -11,7 +11,7 @@
   --cl-background-dark: #e7e9fc;
   --cl-background-light: #f4f4fd;
   --cl-accent: #4d5ae5;
-  --cl-links
+  --cl-links: #404bbf;
 
   /* Others */
 }
@@ -56,7 +56,7 @@ a {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--cl-secondary);
+  color: var(--cl-accent);
 }
 .header-logo-accent {
   font-family: var(--font-secondary);
@@ -65,7 +65,7 @@ a {
   text-transform: uppercase;
   line-height: 1.16;
   letter-spacing: 0.5px;
-  color: #4d5ae5;
+  color: var(--cl-secondary);
 }
 .header-nav-list {
 }
@@ -83,7 +83,7 @@ a {
   color: var(--cl-links);
 }
 .header-address {
-  font-style: normal
+  font-style: normal;
 }
 .header-address-list {
 }
@@ -124,7 +124,7 @@ a {
 .btn:hover,
 .btn:focus {
   cursor: pointer;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .btn-primary {
   font-family: inherit;
@@ -258,6 +258,6 @@ a {
   font-weight: 400;
   line-height: inherit;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 /* #endregion */
